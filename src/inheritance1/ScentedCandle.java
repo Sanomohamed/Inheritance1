@@ -1,6 +1,4 @@
-
 package inheritance1;
-
 public class ScentedCandle extends Candle{
     String scent;
     public ScentedCandle(String color, double height,String scent) {
@@ -19,6 +17,5 @@ public class ScentedCandle extends Candle{
     public void setHeight(double height){
         super.setHeight(height);
         this.price=3*height;
-    }
-    
+    }   
 }
