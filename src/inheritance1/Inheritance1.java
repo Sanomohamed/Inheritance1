@@ -1,10 +1,8 @@
-
 package inheritance1;
 
 public class Inheritance1 {
-
     
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Candle candle = new Candle("Red", 5.0);
 
         System.out.println("Candle Details:");
@@ -20,6 +18,5 @@ public class Inheritance1 {
         System.out.println("Height: " + scentedCandle.getHeight() + " inches");
         System.out.println("Scent: " + scentedCandle.getScent());
         System.out.println("Price: $" + scentedCandle.getPrice());
-    }
-    
+    }  
 }
