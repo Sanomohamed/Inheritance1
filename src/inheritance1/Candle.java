@@ -1,6 +1,4 @@
-
 package inheritance1;
-
 
 public class Candle {
     String color;
@@ -31,8 +29,5 @@ public class Candle {
 
     public double getPrice() {
         return price;
-    }
-
-   
-    
+    }  
 }
